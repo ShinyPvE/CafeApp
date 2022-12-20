@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Trang chủ" />
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Lịch làm" />
+        <item
+            android:id="@+id/nav_statistic"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Doanh thu" />
+        <item
+            android:id="@+id/nav_foodlist"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Danh sách món ăn" />
+    </group>
+</menu>
